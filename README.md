@@ -2,8 +2,8 @@
 
 ![Java CI with Maven](https://github.com/Chromecube/abi-preparation/workflows/Java%20CI%20with%20Maven/badge.svg)
 
-_Warning non-German speakers: All of the comments in this repository
-are written in German, as my classmates may also have a look at this project. Sorry!_
+_Information for everyone who doesn't speak the German language: The entire content of this repository
+is German, as this is meant to be for my graduation exam preparation. Sorry!_
 
 ## Inhaltsverzeichnis
 
