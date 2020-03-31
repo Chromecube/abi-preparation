@@ -43,4 +43,5 @@ Benchmark mit 1.000.000 Zeichen:
 
 Verfahren | Execution time
 --- | ---
-Cäsar & ROT13 | 30-50ms
+Caesar & ROT13 | 30-50ms
+Vigenere (Key: ABC) | 40-60ms

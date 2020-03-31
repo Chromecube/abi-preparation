@@ -28,4 +28,9 @@ public class EncryptionController {
     public QueryResult rot13(@RequestBody CryptInfo info) {
         return new QueryResult().setResult(crypt.caesar(info.getText(), 13));
     }
+
+    @PostMapping("/vigenere")
+    public QueryResult vigenere(@RequestBody CryptInfo info) {
+        return new QueryResult().setResult(crypt.vigenere(info.getText(), info.getKey()));
+    }
 }
