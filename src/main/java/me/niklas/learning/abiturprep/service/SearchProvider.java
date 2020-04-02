@@ -26,7 +26,7 @@ public class SearchProvider {
         int left = 0; //Linke Grenze
         int right = array.length - 1; //Rechte Grenze
 
-        while (left < right) { //Grenzen nähern sich an; bei Überschneidung entweder Zahl gefunden oder gesamtes Array durchsucht!
+        while (left <= right) { //Grenzen nähern sich an; bei Überschneidung entweder Zahl gefunden oder gesamtes Array durchsucht!
             int middle = (left + right) / 2; //Mitte des Arrays bestimmen (es wird standardmäßig abgerundet)
 
             if (array[middle] < search)
@@ -35,6 +35,6 @@ public class SearchProvider {
                 right = middle - 1; //Die gesuchte Zahl ist kleiner als die aktuelle Mitte -> Suche nach links
             else return middle; //array[mitte] == search -> Gefunden
         }
-        return array[left] == search ? left : -1; //Wenn getroffener Index = gesuchter Zahl -> Index, ansonsten -1 (=nicht gefunden)
+        return -1; //-1 (=nicht gefunden)
     }
 }
