@@ -2,8 +2,9 @@
 
 ![Java CI with Maven](https://github.com/Chromecube/abi-preparation/workflows/Java%20CI%20with%20Maven/badge.svg)
 
-_Information for everyone who doesn't speak the German language: The entire content of this repository
-is German, as this is meant to be for my graduation exam preparation. Sorry!_
+_Information for everyone who doesn't speak German: The entire content of this repository
+is written in German (except class/method/attribute names), as this is meant to be for my graduation exam preparation only. Sorry about that! 
+However, you still might find this code to be useful for you. Have fun exploring this repo!_
 
 ## Inhaltsverzeichnis
 
@@ -35,7 +36,7 @@ Bubble Sort | 15.485s
 Quick Sort | 0.309s
 Merge Sort | 0.041s
 
-_Hinweis: Es wurde kein Multithreading angewendet, daher könnten einige Alogrithmen dadurch schneller sein. Auf Optimierungen wurde weitesgehend verzichtet (bspw. Prüfung ob Sortierung abgeschlossen ist)._
+_Hinweis: Es wurde kein Multithreading angewendet, daher könnten einige Algorithmen dadurch schneller sein. Auf Optimierungen wurde weitesgehend verzichtet (bspw. Prüfung ob Sortierung abgeschlossen ist)._
 
 **Simple Verschlüsselungsverfahren (Cäsar, ROT13 und Vigenére-Chiffre)**
 
